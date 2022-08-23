@@ -1,4 +1,4 @@
-var target_date = new Date('June 05 2020 13:00:00 GMT+0100').getTime();
+var target_date = new Date('October 29 2023 12:30:00 GMT+0100').getTime();
  
 
 var days, hours, minutes, seconds;
@@ -23,11 +23,6 @@ setInterval(function () {
      
     minutes = parseInt(seconds_left / 60);
     seconds = parseInt(seconds_left % 60);
-     
-    // format countdown string + set tag value
-    // countdown.innerHTML = '<span class="days">' + days +  ' <b>Days</b></span> <span class="hours">' + hours + ' <b>Hours</b></span> <span class="minutes">'
-    // + minutes + ' <b>Minutes</b></span> <span class="seconds">' + seconds + ' <b>Seconds</b></span>';  
-
 
     countdown.innerHTML = '<div class="flex-w flex-c cd100 respon2">'+ 
     '<div class="flex-col-c wsize1 m-b-30">'+
