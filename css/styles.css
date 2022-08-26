@@ -179,7 +179,7 @@
 
 @media (min-width: 992px) {
   .masthead {
-    background: linear-gradient(to bottom, rgba(238, 72, 218, 0.119608) 0%, rgba(22, 22, 22, 0.1) 75%, #161616 100%), url("../img/back.png");
+    background: linear-gradient(to bottom, rgba(238, 72, 218, 0.119608) 0%, rgba(22, 22, 22, 0.1) 75%, #161616 100%), url("../img/back.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
