@@ -107,7 +107,6 @@
   position: relative;
   width: 100%;
   height: auto;
-  min-height: 35rem;
   padding: 20rem 0;
   padding-bottom: 0.5rem;
   background: linear-gradient(to bottom, rgba(238, 72, 218, 0.119608) 0%, rgba(22, 22, 22, 0.1) 75%, #161616 100%), url("../img/background-mobile.jpg");
@@ -123,7 +122,7 @@
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
   background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: azure;
   -webkit-background-clip: text;
 }
 
@@ -137,14 +136,19 @@
   padding: .5rem 1rem;
 }
 
-@media (min-width: 400px) {
+.masthead .text-white-50 {
+  color: azure !important;
+}
+
+@media (min-width: 360px), (min-width: 375px) {
   .masthead {
     background: linear-gradient(to bottom, rgba(238, 72, 218, 0.119608) 0%, rgba(22, 22, 22, 0.1) 75%, #161616 100%), url("../img/background-tablet.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-size: cover;
+    background-size: contain;
     height: auto;
+    padding: 8rem 0;
   }
   .masthead .mast-button {
     font-size: 70%;
@@ -152,14 +156,47 @@
   }
 }
 
-@media (min-width: 568px) {
+@media (min-width: 400px), (min-width: 390px), (min-width: 375px), (min-width: 412px) {
   .masthead {
     background: linear-gradient(to bottom, rgba(238, 72, 218, 0.119608) 0%, rgba(22, 22, 22, 0.1) 75%, #161616 100%), url("../img/background-tablet.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-size: cover;
+    background-size: contain;
     height: auto;
+    padding: 9rem 0;
+  }
+  .masthead .mast-button {
+    font-size: 70%;
+    padding: .85rem 1.5rem;
+  }
+}
+
+@media (min-width: 558px) {
+  .masthead {
+    background: linear-gradient(to bottom, rgba(238, 72, 218, 0.119608) 0%, rgba(22, 22, 22, 0.1) 75%, #161616 100%), url("../img/background-tablet.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: contain;
+    height: auto;
+    padding: 20rem 0;
+  }
+  .masthead .mast-button {
+    font-size: 80%;
+    padding: 1.5rem 2rem;
+  }
+}
+
+@media (min-width: 565px) {
+  .masthead {
+    background: linear-gradient(to bottom, rgba(238, 72, 218, 0.119608) 0%, rgba(22, 22, 22, 0.1) 75%, #161616 100%), url("../img/background-tablet.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: contain;
+    height: auto;
+    padding: 18rem 0;
   }
   .masthead .mast-button {
     font-size: 80%;
@@ -169,7 +206,17 @@
 
 @media (min-width: 768px) {
   .masthead {
-    padding-bottom: 3rem;
+    background: linear-gradient(to bottom, rgba(238, 72, 218, 0.119608) 0%, rgba(22, 22, 22, 0.1) 75%, #161616 100%), url("../img/background-tablet.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: contain;
+    height: auto;
+    padding: 18rem 0;
+  }
+  .masthead .mast-button {
+    font-size: 80%;
+    padding: 1.5rem 2rem;
   }
   .masthead .title-text {
     font-size: 4rem;
@@ -179,13 +226,13 @@
 
 @media (min-width: 992px) {
   .masthead {
-    background: linear-gradient(to bottom, rgba(238, 72, 218, 0.119608) 0%, rgba(22, 22, 22, 0.1) 75%, #161616 100%), url("../img/back.jpg");
-    background-position: center;
+    background: linear-gradient(to bottom, rgba(238, 72, 218, 0.119608) 0%, rgba(22, 22, 22, 0.1) 75%, #161616 100%), url("../img/back-new.jpg");
+    background-position: initial;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
     height: auto;
-    height: 100vh;
+    height: 135vh;
   }
   .masthead .title-text {
     font-size: 6.5rem;
